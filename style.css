@@ -1,0 +1,1018 @@
+/*Audio Tombol 1*/
+.music {
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: rgba(145,143,142,.2);
+    border-radius: 50%;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 2;
+  }
+  
+  
+  button {
+    border:none;
+    cursor:pointer;
+    outline:none;
+  }
+  
+  
+  button#playpausebtn {
+    background:url(img/play.png) no-repeat;
+    /*border: 2px solid salmon;*/
+    outline: none;
+    width:32px;
+    height:32px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  /*------------------------------------------------------*/
+  
+  
+  
+  
+  /*Jendela Pop Up QR Code*/
+  /*#popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+  }
+  
+  
+  .window {
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    margin: 15% auto;
+  }
+  
+  
+  .window h2 {
+    margin: 30px 0 0 0;
+  }*/
+  
+  
+  /* Button Close */
+  /*.close-button {
+    width: 100px;
+    height: 33px;
+    line-height: 23px;
+    background: red;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  .close-button:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+  }*/
+  
+  
+  /* Memunculkan Jendela Pop Up*/
+  /*#popup:target {
+    visibility: visible;
+  }*/
+  
+  
+  /*QR Code*/
+  /*.qr-code a {
+    border: 1px solid #3C3C3D;
+    color: #3C3C3D;
+    font-weight: bold;
+  }
+  
+  
+  .qr-code a:hover {
+    background-color: #3C3C3D;
+    color: #FFFFFF;
+  }*/
+  /*-----------------------------------------------------------*/
+  
+  
+  
+  
+  /* navbar */
+  .navbar {
+    background-color: #3C3C3D;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  
+    .navbar .tamu {
+      color: white;
+      font-weight: bold;
+    /*  line-height: 8px;*/
+    }
+  
+  
+    .navbar .tamu p {
+      margin-bottom: 0px;
+    }
+  
+  
+    .navbar-nav a {
+      font-size: 20px;
+      color: #FAF0DE;
+      text-decoration: none;
+    }
+  /*------------------------------------------------------------*/
+  
+  
+  
+  
+  /* The side navigation menu */
+  .sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #3C3C3D;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    padding-bottom: 30px;
+    /* Place content 30px from the bottom */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 8px 0 4px 12px;
+      text-decoration: none;
+      font-size: 15px;
+      color: #FAF0DE;
+      display: block;
+      transition: 0.3s;
+    }
+  
+  
+    /* When you mouse over the navigation links, change their color */
+  
+    /*.sidenav a:hover,
+    .offcanvas a:focus {
+      color: #f1f1f1;
+    }*/
+  
+  
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  
+  
+    .sidenav .avatar {
+      width: 100px;
+      border: 4px solid #FAF0DE;
+      margin-bottom: 20px;
+    }
+  
+  
+    .table-nav {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+  
+  
+    .table-nav a {
+      padding-left: 40px;
+      padding-right: 115px;
+    }
+  
+  
+    .table-nav a:hover {
+      background-color: #414143;
+    }
+  
+  
+    .table-nav img {
+      width: 30px;
+      height: 30px;
+      margin-right: 30px;
+    }
+  /*------------------------------------------------------------*/
+  
+  
+  
+  
+  /*Navbar*/
+  .myNavbar {
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  
+    .myNavbar a {
+      color: black;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+  
+  
+    .myNavbar img {
+      width: 30px;
+      height: 30px;
+    }
+  
+  
+    .myNavbar p {
+      font-size: 15px;
+      margin: 0;
+    }
+  
+  
+    .nav-qr-code p {
+      width: 60px;
+      margin: 0 auto;
+    }
+  
+  
+    .more {
+      background-color: #3C3C3D;
+    }
+  
+  
+    .more img {
+      margin-top: 4px;
+      margin-left: -5px;
+    }
+  
+  
+    .more p {
+      color: #FAF0DE;
+      margin-bottom: 4px;
+      margin-left: -5px;
+    }
+  /*-----------------------------------------------------*/
+  
+  
+  
+  
+  /*Content*/
+  .home {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+  }
+  
+  
+    .home .kolom {
+      padding: 0 15px;
+    }
+  
+  
+    .home .bg,
+    .pengantin .bg,
+    .acara .bg,
+    .love-story .bg,
+    .pengiring .bg,
+    .galeri .bg,
+    .video .bg,
+    .rsvp .bg,
+    .buku-tamu .bg,
+    .copyright .bg {
+      width: 100%;
+      padding: 115px 15px;
+      padding-bottom: 90px;
+      background-image: url(img/bg.jpg);
+      position: relative;
+    }
+  
+  
+    .home h1 {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #454445;
+      font-size: 13px;
+    }
+  
+  
+    .home .wanita,
+    .home .pria {
+      font-family: england;
+      color: #454445;
+      font-size: 90px;
+      margin-bottom: 0;
+      letter-spacing: 5px;
+      position: absolute;
+      left: 50px;
+      right: 50px;
+    }
+  
+  
+    .home .wanita {
+      left: 5px;
+      top: 140px;
+    }
+  
+  
+    .home .pria {
+      right: 5px;
+      top: 220px;
+    }
+  
+  
+    .home .dan {
+      font-family: berkshireswash;
+      font-size: 200px;
+      color: #E8D4AF;
+      margin-top: -20px;
+    }
+  
+  
+    .home .event-date {
+      width: 300px;
+      height: 90px;
+      margin: 0 auto;
+      margin-top: -20px;
+      margin-bottom: 20px;
+   /*   border: 2px solid salmon;*/
+      position: relative;
+    }
+  
+  
+    .home .hari {
+      font-family: alice;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #454445;
+      position: absolute;
+      left: 50px;
+      right: 50px;
+    }
+  
+  
+    .home .tanggal {
+      font-family: kurale;
+      font-size: 75px;
+      color: #454445;
+      margin-top: -20px;
+      margin-bottom: 0;
+      position: absolute;
+      top: 30px;
+      left: 50px;
+      right: 50px;
+    }
+  
+  
+    .home .bulan {
+      font-family: alice;
+      font-size: 28px;
+      color: #454445;
+      border-top: 4px solid #E8D4AF;
+      border-bottom: 4px solid #E8D4AF;
+      position: absolute;
+      top: 32px;
+      left: 45px;
+    }
+  
+  
+    .home .tahun {
+      font-family: alice;
+      font-size: 28px;
+      color: #454445;
+      border-top: 4px solid #E8D4AF;
+      border-bottom: 4px solid #E8D4AF;
+      position: absolute;
+      top: 32px;
+      right: 45px;
+    }
+  
+  
+    .home p {
+      font-family: 'Dosis', sans-serif;
+      font-size: 16px;
+      color: #454445;
+      margin-bottom: 0;
+    }
+  
+  
+    .left-top-decor,
+    .right-top-decor,
+    .left-bottom-decor,
+    .right-bottom-decor {
+      width: 120px;
+    }
+  
+  
+    .left-top-decor {
+      width: 170px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+  
+    .right-top-decor {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  
+  
+    .left-bottom-decor {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  
+  
+    .right-bottom-decor {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      -moz-transform: scaleX(-1);
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          filter: FlipH;
+          -ms-filter: "FlipH";
+    }
+  
+  
+  
+    /*hitung mundur*/
+    .hitungMundur {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  
+  
+    .hitungMundur p {
+      padding: 0 8px;
+    }
+  
+  
+    .labelDetik,
+    #detik {
+      margin-bottom: 0;
+    }
+  
+  
+    .labelHari,
+    .labelJam,
+    .labelMenit,
+    .labelDetik,
+    #hari,
+    #jam,
+    #menit,
+    #detik {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  
+  
+  .pengantin {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+    
+    .pengantin .baris,
+    .acara .baris {
+      margin-top: 30px;
+    }
+  
+  
+    .pengantin .kolom,
+    .acara .kolom,
+    .love-story .kolom,
+    .pengiring .kolom,
+    .galeri .kolom,
+    .video .kolom,
+    .rsvp .kolom,
+    .buku-tamu .kolom,
+    .copyright .kolom {
+      position: relative;
+    }
+  
+  
+    /*.pengantin img,
+    .acara img,
+    .galeri img,
+    .rsvp img,
+    .buku-tamu img,
+    .love-story img {
+      width: 250px;
+    }*/
+  
+  
+    .pengantin h5 {
+      font-family: 'Alex Brush', cursive;
+      color: #454445;
+      font-weight: bold;
+    }
+  
+  
+    .pengantin .salam-pembuka,
+    .pengantin .salam-penutup {
+      font-weight: bold;
+    }
+  
+  
+    .pengantin .salam-pembuka {
+      margin-bottom: 10px;
+    }
+  
+  
+    .pengantin .salam-penutup {
+      margin: 10px 0;
+    }
+  
+  
+    .pengantin .jarak {
+      margin-top: 35px;
+    }
+  
+  
+    .pengantin p {
+      margin-bottom: 0;
+    }
+  
+  
+    .pengantin .wanita {
+      margin-bottom: 25px;
+    }
+  
+  
+    .pengantin .pria {
+      margin-top: 10px;
+    }
+  
+  
+    .pengantin .wanita img,
+    .pengantin .pria img {
+      width: 250px;
+      border: 6px solid #454445;
+    }
+  
+  
+    .pengantin .wanita h4,
+    .pengantin .pria h4 {
+      font-family: 'Oleo Script', cursive;
+      color: #454445;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  
+  
+    .pengantin .wanita p,
+    .pengantin .pria p {
+      margin-bottom: 18px;
+    }
+  
+  
+    .pengantin .dan h1 {
+      font-family: 'Oleo Script', cursive;
+      color: #E8D4AF;
+      font-size: 90px;
+      margin: 0;
+      padding: 30px 0;
+    }
+  
+  
+    .pengantin a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #454445;
+      border: 1px solid #454445;
+      border-radius: 20px;
+      padding: 8px;
+    }
+  
+  
+    .pengantin a:hover {
+      background-color: #454445;
+      color: #FAF0DE;
+    }
+  
+  
+  .acara {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+    .acara .bg {
+      padding-bottom: 130px;
+    }
+  
+  
+    .acara h1,
+    .love-story h1,
+    .pengiring h1,
+    .galeri h1,
+    .video h1,
+    .rsvp h1,
+    .buku-tamu h1,
+    .copyright h1 {
+      font-family: 'Alex Brush', cursive;
+      font-size: 30px;
+      font-weight: bold;
+      color: #454445;
+    }
+  
+  
+    .acara .jadwal .akad-nikah {
+      margin-bottom: 30px;
+    }
+  
+  
+    .acara .akad-nikah h2,
+    .acara .resepsi h2 {
+      font-family: 'Dosis', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  
+  
+    .acara .jadwal img {
+      width: 40px;
+      margin-right: 10px;
+    }
+  
+  
+    .acara .jadwal p {
+      margin: 0;
+    }
+  
+  
+    .acara .jadwal i {
+      margin-right: 10px;
+    }
+  
+  
+    .acara .akad-nikah .alamat-akad,
+    .acara .resepsi .alamat-resepsi {
+      margin-bottom: 10px;
+    }
+  
+  
+    .acara a {
+      text-decoration: none;
+      color: #454445;
+      font-weight: bold;
+      border: 1px solid #454445;
+      border-radius: 18px;
+      padding: 5px 8px;
+    }
+  
+  
+    .acara a:hover {
+      background-color: #454445;
+      color: #FAF0DE;
+    }
+  
+  
+    .acara .jadwal a i {
+       margin-right: 0;
+    }
+  
+  
+    .acara .venue {
+      margin-top: 30px;
+    }
+  
+  
+    /*.pengantin .top-decor,
+    .acara .top-decor,
+    .love-story .top-decor,
+    .pengiring .top-decor,
+    .galeri .top-decor,
+    .video .top-decor,
+    .rsvp .top-decor,
+    .buku-tamu .top-decor,
+    .copyright .top-decor {
+      margin-bottom: 30px;
+      width: 120px;
+    }
+  
+  
+    .pengantin .bottom-decor,
+    .acara .bottom-decor,
+    .love-story .bottom-decor,
+    .pengiring .bottom-decor,
+    .galeri .bottom-decor,
+    .video .bottom-decor,
+    .rsvp .bottom-decor,
+    .buku-tamu .bottom-decor,
+    .copyright .bottom-decor {
+      margin-top: 30px;
+      width: 120px;
+    }*/
+  
+  
+  .love-story {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+    .love-story .bg {
+      padding-bottom: 125px;
+    }
+  
+  
+    .story-1,
+    .story-2,
+    .story-3,
+    .story-4,
+    .story-5,
+    .story-6 {
+      margin-top: 30px;
+    }
+  
+  
+    .love-story h3 {
+      margin-top: 10px;
+    }
+  
+  
+    .love-story p {
+      margin-bottom: 0;
+    }
+  
+  
+  .galeri {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+    .galeri .bg {
+      padding-bottom: 125px;
+    }
+  
+  
+    .galeri h1 {
+      margin-bottom: 0;
+    }
+  
+  
+    .galeri .resize {
+      width: 100%;
+    }
+  
+  
+    .jarak {
+      padding: 2px 2px;
+    }
+  
+  
+  .buku-tamu {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+    .buku-tamu .bg {
+      padding-top: 135px;
+      padding-bottom: 125px;
+    }
+  
+  
+    .buku-tamu h1 {
+      margin-bottom: 0;
+    }
+  
+  
+    .buku-tamu .bg-fb {
+      width: 100%;
+      background-color: white;
+    }
+  
+  
+  .copyright {
+    min-height: 690px;
+    background-color: #414143;
+    padding: 80px 0;
+    color: #454445;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  
+    .copyright .bg {
+      padding: 185px 0;
+    }
+    
+  
+    .copyright .logo {
+      width: 150px;
+      margin-bottom: 10px;
+    }
+  
+  
+    .copyright .jarak {
+      margin-top: 10px;
+    }
+  
+  
+    .copyright a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #454445;
+      border: 1px solid #454445;
+      border-radius: 20px;
+      padding: 4px 10px;
+    }
+  
+  
+    .copyright a:hover {
+      background-color: #454445;
+      color: #FAF0DE;
+    }
+  /*----------------------------------------------------*/
+  
+  
+  
+  
+  
+  
+  /*DESKTOP VERSION*/
+  @media screen and (min-width: 992px) {
+    .music {
+      right: 130px;
+    }
+  
+    
+    /*.table-nav a {
+      padding: 30px 30px;
+    }*/
+  
+  
+    /*Content*/
+    .hitungMundur p,
+    #hari,
+    #jam,
+    #menit,
+    #detik {
+      font-size: 20px;
+      padding: 0 12px;
+    }
+  
+  
+    .pengantin .baris {
+      margin-top: 0;
+    }
+  
+  
+    .pengantin .wanita {
+      margin-top: 40px;
+      margin-bottom: 0;
+    }
+  
+  
+    .pengantin .pria {
+      margin-top: 40px;
+    }
+  
+  
+    .pengantin .dan h1 {
+      margin-top: 40px;
+      font-size: 120px;
+    }
+  
+  
+    /*.acara .venue {
+      margin-top: 0;
+    }*/
+  
+  
+    .love-story h3 {
+      margin-top: 80px;
+    }
+  }
+  
+  
+  
+  
+  /*TABLET VERSION*/
+  /*@media (min-width: 320px) and (max-width: 768px) {
+    .myNavbar p {
+      font-size: 20px;
+    }
+  
+  
+    .home {
+      min-height: 1000px;
+    }
+  
+  
+    .home h1 {
+      font-size: 80px;
+      margin-top: 650px;
+    }
+  
+  
+    .home h3 {
+      font-size: 40px;
+    }
+  
+  
+    .home p {
+      font-size: 30px;
+    }
+  }*/
+  
+  
+  
+  
+  /*MOBILE VERSION (320px)*/
+  @media screen and (max-width: 320px) {
+    .home {
+      min-height: 560px;
+    }
+  
+  
+    .myNavbar p {
+      font-size: 12px;
+    }
+  
+  
+    .nav-qr-code p {
+      width: 48px;
+    }
+  }
+  
+  
+  
+  
+  /*Font  Face*/
+  @font-face {
+    font-family: alice;
+    src: url(fonts/alice-regular-webfont.woff2);
+  }
+  
+  
+  @font-face {
+    font-family: kurale;
+    src: url(fonts/kurale-regular-webfont.woff2);
+  }
+  
+  
+  @font-face {
+    font-family: england;
+    src: url(fonts/england-webfont.woff2);
+  }
+  
+  
+  @font-face {
+    font-family: berkshireswash;
+    src: url(fonts/berkshireswash-regular-webfont.woff2);
+  }
