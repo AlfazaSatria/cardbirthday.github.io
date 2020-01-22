@@ -1,7 +1,7 @@
 var audio, playbtn, mutebtn, seek_bar;
 function initAudioPlayer(){
 	audio = new Audio();
-	audio.src = "https://www.ruangpengantin.com/audio/Can't Help Falling In Love.mp3";
+	audio.src = "song.mp3";
 	audio.loop = true;
 	audio.play();
 	// Set object references
